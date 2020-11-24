@@ -1,0 +1,95 @@
+.selected {
+    background: rgb(58, 201, 82) !important;
+}
+
+.options {
+    padding: 8px;
+    border: 3px solid #000;
+    cursor: pointer;
+    width:50%;
+    margin: 15px auto;
+    background-color: rgb(67, 161, 87);
+    color: rgb(70, 38, 185);
+    font-weight: bold;
+}
+.options :hover {
+    padding: 8px;
+    border: 3px solid #000;
+    cursor: pointer;
+    width:50%;
+    margin: 15px auto;
+    
+    color: rgb(70, 38, 185);
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.true{
+    background-color: green;
+    padding: 8px;
+    border: 3px solid #000;
+    cursor: pointer;
+    width:50%;
+    margin: 15px auto;
+    
+    color: steelblue;
+    border: none;
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    height: 80px;
+}
+.false{
+   background-color: red;
+   padding: 8px;
+    border: 3px solid #000;
+    cursor: pointer;
+    width:50%;
+    margin: 15px auto;
+    
+    color: steelblue;
+    font-weight: bold;
+    border: none;
+}
+
+ul {
+    list-style-type: upper-latin;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI',;
+    font-size: 18px;
+    background-color: teal;
+ }
+ .container{
+     display: inline-block;
+     width: 600px;
+     height: 500px;
+    background-color: rgb(138, 32, 138);
+    margin: 50px auto;
+
+ }
+ button{
+     background-color: -internal-light-dark(rgba(0, 0, 0, 0.3), rgb(255, 0, 0));;
+     color:rgb(0, 0, 0) ;
+     cursor: pointer;
+     font-weight: 700;
+     height: 35px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ button:disabled{
+     background-color: rgb(109, 109, 109);
+ }
